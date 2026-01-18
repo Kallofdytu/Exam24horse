@@ -689,6 +689,9 @@
   .bg-\[\#E8F2FC\] {
     background-color: #E8F2FC;
   }
+  .bg-\[\#EAF3FD\] {
+    background-color: #EAF3FD;
+  }
   .bg-\[\.\] {
     background-color: .;
   }
@@ -837,6 +840,9 @@
     font-size: var(--text-5xl);
     line-height: var(--tw-leading, var(--text-5xl--line-height));
   }
+  .text-\[6px\] {
+    font-size: 6px;
+  }
   .text-\[18px\] {
     font-size: 18px;
   }
@@ -861,8 +867,14 @@
   .text-\[34px\] {
     font-size: 34px;
   }
+  .text-\[36px\] {
+    font-size: 36px;
+  }
   .text-\[40px\] {
     font-size: 40px;
+  }
+  .text-\[46px\] {
+    font-size: 46px;
   }
   .text-\[50px\] {
     font-size: 50px;
@@ -1178,6 +1190,11 @@
   .lg\:justify-between {
     @media (width >= 64rem) {
       justify-content: space-between;
+    }
+  }
+  .lg\:gap-10 {
+    @media (width >= 64rem) {
+      gap: calc(var(--spacing) * 10);
     }
   }
   .lg\:p-1 {
