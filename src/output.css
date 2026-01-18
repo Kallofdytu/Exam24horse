@@ -605,6 +605,9 @@
   .justify-center {
     justify-content: center;
   }
+  .justify-end {
+    justify-content: flex-end;
+  }
   .justify-evenly {
     justify-content: space-evenly;
   }
@@ -972,6 +975,9 @@
   .text-center {
     text-align: center;
   }
+  .text-end {
+    text-align: end;
+  }
   .text-start {
     text-align: start;
   }
@@ -1271,6 +1277,11 @@
   .lg\:w-\[40\%\] {
     @media (width >= 64rem) {
       width: 40%;
+    }
+  }
+  .lg\:w-\[45\%\] {
+    @media (width >= 64rem) {
+      width: 45%;
     }
   }
   .lg\:w-\[50\%\] {
